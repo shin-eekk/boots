@@ -52,7 +52,9 @@
     <!-- 공통컨텐츠 : header, section, footer, aside 피그마 프레임구조 *섹션과 프레임 혼동금지-->
     <!-- 피그마 컨텐츠 구성에 맞춘 태그구조 -->
      <!-- 가장 위에 팝업자리 -->
+    
   <div class="wrap">
+    <!-- header#hd>.container>h1+ul>li*2>a -->
     <header id="hd" class="position-fixed bg-light start-0 end-0 ">
       
         <div class="container d-flex justify-content-between align-items-center py-3">
@@ -65,10 +67,12 @@
             
     </header>
 
+    <!-- div>h2  -->
     <div class="section vh-100 bg-dark text-white d-flex justify-content-center align-items-center" id="mainslider">
         <h2>메인슬라이더</h2>
     </div>
     
+    div>h2>div.container>div.d-flex>div.>div.>div.*4 
     <div class="section vh-100 bg-info " id="mainnew">
         <h2>신상품</h2>
         <div class="container">
